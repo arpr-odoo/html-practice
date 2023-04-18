@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1.20rem;
+}
+
+
+.container{
+    background-color: #A5D7E8;
+    width: 80%;
+    margin: 10px auto;
+    /* height: 100vh; */
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+}
+#userData{
+    display: flex;
+    word-spacing: 2px;
+}
+.info .spans{
+    background-color: #DAF5FF;
+    padding-bottom: 10px;
+    /* border: 2px solid red; */
+}
+.info p{
+    padding: 50px 0;
+}
+.info{
+    /* border: 2px solid black; */
+    text-align: center;
+    padding: 40px 10px;
+    
+}
+.image{
+    padding: 50px 4px;
+    width: 50%;
+    /* border: 2px solid red; */
+}
+
+.image img{
+    float: right;
+    width: 100%;
+}
+
+#description{
+    /* border-top: 2px solid black; */
+    padding: 20px 0;
+}
+#description .para{
+    text-align: center;
+    padding:10px 10px;
+}
+#description h5{
+    padding: 0 10px;
+    text-align: center;
+    /* text-decoration: underline; */
+}
+#description ul {
+    padding: 10px 40px;
+    display: flex;
+    justify-content:space-evenly;
+}
+#userForm{
+    padding: 20px 10px;
+    /* border-top: 2px solid black; */
+}
+#userForm form{
+    font-size: 1.5rem;
+    padding: 10px 0;
+}
+#userForm form div{
+    padding: 5px 0;
+}
+#userForm form input{
+    padding: 7px 0;
+}
+#userForm form .inp input{
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    border: none;
+}
+#userForm h4{
+    padding: 10px 0;
+    text-align: center;
+}
+.btns{
+    text-align: center;
+}
+.btns button{
+    border-radius: 5px;
+    padding: 5px 5px;
+    /* border: 2px solid red; */
+}
+.btns .reset{
+    background-color: green;
+}
+.btns .submit{
+    background-color: blue;
+}
+hr{
+    width: 100px;
+    margin: auto;
+    border: 1px solid black;
+    /* text-align: center; */
+}
